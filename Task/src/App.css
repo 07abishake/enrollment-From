@@ -1,0 +1,107 @@
+
+*{
+  background-color:grey;
+  
+  color: rgb(41, 34, 34);
+  
+  
+}
+.li{
+  word-spacing: 10px;
+  font-size: larger
+}
+.h1{
+  text-align: left;
+  margin: px;
+}
+.name {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  text-align: center;
+  background-color: aqua;
+  padding: 5px;
+  align-items: center;
+  margin: 20px;
+  border-radius: 15px;
+  border-color: rgb(208, 255, 0);
+  justify-content: center;
+
+}
+.name::before{
+  width: 1500px;
+  height: 1500px;
+
+}
+.name :hover{
+  background-color: red;
+}
+name :active{
+  background-color: bisque;
+  color: rgb(255, 102, 0);
+}
+.email{ 
+display: grid;
+grid-template-columns: 1fr 1fr;
+text-align: center;
+background-color: aqua;
+padding: 5px;
+align-items: center;
+margin: 20px;
+border-radius: 15px;
+border-color: yellow;
+}
+.email :hover{
+background-color: red;
+}
+.email :active{
+background-color: bisque;
+color: rgb(255, 102, 0);
+}
+.age{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  text-align: center;
+  background-color: aqua;
+  padding: 5px;
+  align-items: center;
+  margin: 20px;
+  border-radius: 15px;
+  border-color: yellow;
+}
+.age :hover{
+  background-color: red;
+}
+.age :active{
+  background-color: bisque;
+  color: rgb(255, 102, 0);
+}
+.phoneno{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  text-align: center;
+  background-color: aqua;
+  padding: 5px;
+  align-items: center;
+  margin: 20px;
+  border-radius: 15px;
+  border-color: yellow;
+}
+.phoneno :hover{
+  background-color: red;
+}
+.phoneno :active{
+  background-color: bisque;
+  color: rgb(255, 102, 0);
+}
+.btn{
+  display: grid;
+  text-align: center;
+  align-items: center;
+  margin: 60px;
+  background-color: chartreuse;
+  border-color: yellow;
+  border-radius: 11px;
+  width:110px;
+  height: 35px;
+  font-size: medium;
+}
